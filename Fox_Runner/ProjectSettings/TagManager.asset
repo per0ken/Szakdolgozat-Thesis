@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Slide
+  - Wall
+  - DWall
+  - Play
+  - Load
+  - Exit
   layers:
   - Default
   - TransparentFX

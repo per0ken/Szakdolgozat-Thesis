@@ -1,0 +1,612 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1679264267869151, "dur": 2279901, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679264267869203, "dur": 5621, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679264267874828, "dur": 2262818, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679264270137648, "dur": 11402, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679264270149929, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679264267919667, "dur":1952, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264267921635, "dur":145, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679264267921810, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679264267921836, "dur":448, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679264267922333, "dur":1096, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264267923429, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097204, "dur":260, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097464, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097490, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097510, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097527, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097530, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097541, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097543, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097550, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097552, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097558, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097560, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097567, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097569, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097575, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097577, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097583, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097596, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270097664, "dur":4107, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679264267922957, "dur":520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264267923477, "dur":8842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264267932320, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1679264267932594, "dur":349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264267932952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268061348, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1679264268065366, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268065556, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268065652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268065668, "dur":45771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268111531, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268111718, "dur":892, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268112624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268112639, "dur":275346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268388078, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268388244, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268388340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268388354, "dur":66815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268455257, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268455441, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268455539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268455553, "dur":181343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268636985, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268637158, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268637253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268637266, "dur":96674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268734023, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268734176, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268734262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264268734273, "dur":200908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264268935267, "dur":84743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269020011, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269020146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269020160, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269023231, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269023405, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269023501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269023515, "dur":196563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269220159, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269220323, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269220427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269220440, "dur":154562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269375084, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269375255, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269375348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269375361, "dur":344943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679264269720389, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1679264269720496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269720630, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1679264269723719, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679264269723816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269723829, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679264269726331, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679264269726409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679264269726420, "dur":105385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679264269831901, "dur":265319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267923428, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267923432, "dur":8824, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267932273, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679264267932278, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267932436, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679264267932440, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267932540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267933874, "dur":5207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1679264267939093, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679264267939312, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267939525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267940519, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679264267943175, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1679264267943371, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267943455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267944811, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1679264267948965, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1679264267949145, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267949241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267949260, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1679264267952108, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264267952297, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267952769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264267952868, "dur":105880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268058872, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268059639, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268059740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268059753, "dur":50593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268110445, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268110655, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268110762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268110777, "dur":56669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268167534, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268167703, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268167795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268167810, "dur":127801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268295713, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268296241, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268296364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268296375, "dur":105345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268401801, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268401973, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268402073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268402087, "dur":107454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268509629, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268509803, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268509898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268509912, "dur":75942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268585942, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268586112, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268586212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268586226, "dur":57484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268643799, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268643970, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268644073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268644086, "dur":109998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268754184, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268754395, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268754492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268754506, "dur":42928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268797530, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268797710, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268797808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268797821, "dur":68692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268866596, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268866768, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268867062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264268867077, "dur":68316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264268935479, "dur":178657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269114137, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269114311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269114329, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269116886, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269117058, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269117158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269117171, "dur":316421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269433669, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269433897, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269433990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269434004, "dur":78416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269512510, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269512691, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269512790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269512803, "dur":244405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679264269757332, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679264269757429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269757442, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679264269762630, "dur":2105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1679264269764736, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269765262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269765385, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1679264269767974, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1679264269768074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269768086, "dur":6447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1679264269774622, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679264269774712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679264269774722, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679264269779607, "dur":317593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267923082, "dur":405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267923487, "dur":8813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267932301, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1679264267932566, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267932670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267942357, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1679264267944985, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679264267945187, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267945295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267946106, "dur":14842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679264267961063, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264267961154, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267961262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264267966321, "dur":147413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268113825, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268114017, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268114119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268114133, "dur":54389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268168595, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268168727, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268168798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268168807, "dur":84031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268252924, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268253113, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268253229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268253421, "dur":135022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268388537, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268388705, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268388799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268388811, "dur":107948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268496843, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268497014, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268497106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268497120, "dur":90862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268588063, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268588234, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268588327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268588339, "dur":96458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268684891, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268685061, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268685157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268685171, "dur":48528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268733791, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268733968, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268734067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268734083, "dur":80493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268814678, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268814864, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268814994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268815008, "dur":56645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268871736, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268871890, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268871992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264268872003, "dur":107258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264268979350, "dur":199769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269179120, "dur":3272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269182404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269182418, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269184362, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269184522, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269184610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269184623, "dur":156997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269341697, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269341859, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269341946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269341959, "dur":423148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679264269765195, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1679264269765447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269765457, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1679264269770312, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1679264269770399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269770411, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1679264269776334, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1679264269776425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679264269776439, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1679264269780269, "dur":316959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267923261, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267923495, "dur":8821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267932317, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267932598, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267932763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267943878, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267946192, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267946422, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267946518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267946678, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267948904, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267949132, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267949224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267949240, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679264267951852, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264267952052, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267952149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267952740, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264267956510, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner.exe" }}
+,{ "pid":12345, "tid":4, "ts":1679264267956632, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267957049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264267957066, "dur":104962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner.exe" }}
+,{ "pid":12345, "tid":4, "ts":1679264268062130, "dur":24052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268086183, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268086318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268086332, "dur":165109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268251532, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268251965, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268252074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268252087, "dur":110187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268362372, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268362560, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268362755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268362770, "dur":257265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268620117, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268620312, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268620417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268620431, "dur":53759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268674294, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268674472, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268674650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268674664, "dur":102829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268777577, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268777856, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268777952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268777966, "dur":48193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268826240, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268826395, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268826484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268826496, "dur":45015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268871605, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268871783, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268871879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268871894, "dur":39114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268911088, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264268911259, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268911348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264268911361, "dur":104503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269015942, "dur":504906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269520849, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269521044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269521059, "dur":6208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269527350, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269527511, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269527599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269527612, "dur":97110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269624807, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264269624975, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269625064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679264269625115, "dur":471984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679264270097158, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1679264270097160, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264267923753, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264267923753, "dur":8565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264267932319, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679264267932595, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264267932821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268058418, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679264268062685, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268062893, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268062988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268063002, "dur":105537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268168629, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268168786, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268168882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268168893, "dur":126735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268295721, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268296144, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268296328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268296343, "dur":162053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268458488, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268458662, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268458756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268458769, "dur":57948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268516805, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268517199, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268517446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268517461, "dur":59843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268577383, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268577542, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268577631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268577644, "dur":57087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268634816, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268635007, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268635102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268635115, "dur":49673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268684882, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268685059, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268685158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268685171, "dur":69442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268754704, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268754866, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268754955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268754967, "dur":57669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268812725, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264268812899, "dur":3171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268816084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264268816098, "dur":290928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264269107232, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264269107418, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264269107518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264269107531, "dur":577584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264269685202, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264269685381, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264269685473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679264269685487, "dur":346673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679264270032221, "dur":64983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267923592, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267923592, "dur":8667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267932273, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1679264267932540, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267932629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267935188, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1679264267939124, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1679264267939313, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267939439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267940491, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1679264267944547, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1679264267944743, "dur":931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267945686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267945701, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1679264267949670, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1679264267949894, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267950020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267950034, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1679264267953748, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1679264267953946, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267954038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267954049, "dur":6775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1679264267960940, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1679264267961187, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267961269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264267962797, "dur":95941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1679264268058890, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268059071, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268059165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268059264, "dur":144243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268203607, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268203829, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268203932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268203946, "dur":202776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268406983, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268407185, "dur":1326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268408526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268408542, "dur":257538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268666167, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268666330, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268666421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268666433, "dur":93596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268760118, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268760356, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268760458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268760472, "dur":46570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268807129, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268807310, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268807408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268807423, "dur":39991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268847509, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268847686, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268847783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268847797, "dur":46469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268894348, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264268894564, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268894659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264268894673, "dur":286449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269181222, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269181413, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269181508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269181521, "dur":281105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269462714, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269462885, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269462979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269462992, "dur":255907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269718997, "dur":98773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269817772, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269818345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679264269818365, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679264269821806, "dur":275417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267924062, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267924063, "dur":8235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267932300, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1679264267932566, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267932688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267943767, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1679264267946441, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1679264267946609, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267946693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267946706, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1679264267949274, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1679264267949470, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267949570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267949583, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1679264267952508, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264267952679, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267952768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264267952778, "dur":105999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268058881, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268059051, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268059147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268059266, "dur":109051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268168395, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268168545, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268168633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268168687, "dur":82801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268251572, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268251866, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268251978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268251994, "dur":214530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268466612, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268466771, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268466870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268466882, "dur":136264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268603236, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268603428, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268603533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268603548, "dur":62193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268665843, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268666048, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268666157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268666172, "dur":46559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268712822, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268713031, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268713306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268713320, "dur":50294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268763704, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268763884, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268763992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268764005, "dur":37664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268801754, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268801923, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268802019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268802032, "dur":50643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268852762, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268852929, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268853024, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264268853048, "dur":87247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264268940381, "dur":162395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269102778, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269102961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269102978, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269107304, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269107465, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269107556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269107568, "dur":121280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269228932, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269229112, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269229215, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269229248, "dur":64126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269293457, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269293618, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269293707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269293722, "dur":61096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269354902, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269355065, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269355159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269355173, "dur":391328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679264269746572, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679264269746670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269751003, "dur":7875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679264269758973, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679264269759067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269759080, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1679264269761866, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1679264269762121, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269762213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269762225, "dur":3864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1679264269766178, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679264269766269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269766281, "dur":3991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679264269770379, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679264269770475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269770760, "dur":6240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679264269777087, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1679264269777333, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269777683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679264269777695, "dur":4313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1679264269782099, "dur":315116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264267923914, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264267923915, "dur":8399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264267932316, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1679264267932591, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264267932891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268059142, "dur":28176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1679264268087444, "dur":14836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268102281, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268102396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268102410, "dur":262656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268365174, "dur":405762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268770937, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268771134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268771148, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268775430, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268775607, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268775940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268775955, "dur":149246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268925286, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268925466, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268925564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268925619, "dur":50789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268976492, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264268976660, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268976756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264268976771, "dur":130549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269107408, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269107563, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269107662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269107673, "dur":180953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269288711, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269288878, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269288967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269289016, "dur":221838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269510941, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269511107, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269511390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269511403, "dur":252254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679264269763756, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679264269763873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269763889, "dur":4071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679264269768043, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679264269768130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269768139, "dur":5796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679264269774024, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1679264269774114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679264269774128, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Szakdolgozat/Szakdolgozat/Builds/beta_v1/Fox_Runner_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1679264269777362, "dur":319840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679264270104821, "dur":3603, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679264270150097, "dur": 1198, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679264270149910, "dur": 1428, "ph": "X", "name": "Write chrome-trace events", "args": {} },

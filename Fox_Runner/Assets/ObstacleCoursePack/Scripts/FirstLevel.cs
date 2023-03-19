@@ -8,6 +8,15 @@ public class FirstLevel : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-            SceneManager.LoadScene("SecondMap");
+            MainMenu.LoadNextMap();
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            MainMenu.OpenMenu();
+        }
     }
 }
