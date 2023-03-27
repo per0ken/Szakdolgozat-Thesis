@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
+	public AudioSource source;
+	public AudioClip clip;
 	public float force = 10f;
 	public float stunTime = 0.5f;
 	private Vector3 hitDir;
@@ -17,6 +19,7 @@ public class Bounce : MonoBehaviour
 			{
 				hitDir = contact.normal;
 				collision.gameObject.GetComponent<CharacterControls>().HitPlayer(-hitDir * force, stunTime);
+				source.PlayOneShot(clip);
 				return;
 			}
 		}

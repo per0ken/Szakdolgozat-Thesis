@@ -21,6 +21,7 @@ public class CameraManager : MonoBehaviour {
 	public float maxAngle = 35;
 
 
+
 	float smoothX;
 	float smoothY;
 	float smoothXvelocity;

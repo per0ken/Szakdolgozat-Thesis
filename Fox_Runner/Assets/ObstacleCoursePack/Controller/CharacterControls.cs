@@ -24,6 +24,10 @@ public class CharacterControls : MonoBehaviour {
 
 	private float distToGround;
 
+	public AudioSource source;
+	public AudioClip hit;
+	public AudioClip jump;
+
 	private bool canMove = true; // Ha a játékos nem ment neki semminek
 	private bool isStuned = false;
 	private bool wasStuned = false;
@@ -104,6 +108,7 @@ public class CharacterControls : MonoBehaviour {
 				if (IsGrounded() && Input.GetButton("Jump") && transform.position.y>0)
 				{
 					rb.velocity = new Vector3(velocity.x, CalculateJumpVerticalSpeed(), velocity.z);
+					source.PlayOneShot(jump);
 				}
 			}
 			else
@@ -140,7 +145,6 @@ public class CharacterControls : MonoBehaviour {
 		{
 			animator.SetTrigger("Run");
 		}
-		
 
 
 		/*if (Input.GetKeyUp(KeyCode.W))
@@ -240,21 +244,13 @@ public class CharacterControls : MonoBehaviour {
 		
 	}
 
-	/*void OnCollisionEnter(Collision other)
+	void OnCollisionEnter(Collision other)
     {
-		if(other.gameObject.CompareTag("Wall"))
+		if(other.gameObject.CompareTag("Rotator"))
         {
-			transform.SetParent(GameObject.Find("Wall").transform);
+			source.PlayOneShot(hit);
         }
 
 
     }
-
-	void OnCollisionExit(Collision other)
-	{
-		if (other.gameObject.CompareTag("Wall"))
-		{
-			transform.parent = null;
-		}
-	}*/
 }

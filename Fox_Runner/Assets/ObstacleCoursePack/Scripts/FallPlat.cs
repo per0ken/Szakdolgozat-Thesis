@@ -13,14 +13,19 @@ public class FallPlat : MonoBehaviour
 		{
 			if (collision.gameObject.tag == "Player")
 			{
-				StartCoroutine(Fall(fallTime));
+				Invoke("Fall",0.5f);
 			}
 		}
 	}
 
-	IEnumerator Fall(float time)
+	void Fall()
 	{
-		yield return new WaitForSeconds(time);
 		gameObject.SetActive(false);
+		Invoke("Activate", 3);
 	}
+
+	void Activate()
+    {
+		gameObject.SetActive(true);
+    }
 }
