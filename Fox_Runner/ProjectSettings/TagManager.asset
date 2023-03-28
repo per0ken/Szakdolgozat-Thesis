@@ -12,6 +12,7 @@ TagManager:
   - Exit
   - NextMap
   - Rotator
+  - Sphere
   layers:
   - Default
   - TransparentFX

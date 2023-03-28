@@ -28,11 +28,14 @@ public class CharacterControls : MonoBehaviour {
 	public AudioClip hit;
 	public AudioClip jump;
 
+	GameObject pauseGame;
+
 	private bool canMove = true; // Ha a játékos nem ment neki semminek
 	private bool isStuned = false;
 	private bool wasStuned = false;
 	private float pushForce;
 	private Vector3 pushDir;
+	public static bool Paused = false;
 
 	public Vector3 checkPoint;
 	private bool slide = false;
@@ -41,6 +44,8 @@ public class CharacterControls : MonoBehaviour {
 		// get the distance to ground
 		distToGround = GetComponent<Collider>().bounds.extents.y;
 		animator = GetComponent<Animator>();
+		pauseGame = GameObject.Find("Pause");
+		pauseGame.SetActive(false);
 	}
 	
 	bool IsGrounded (){
@@ -53,12 +58,12 @@ public class CharacterControls : MonoBehaviour {
 		rb.useGravity = false;
 
 		checkPoint = transform.position;
-		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 	
 	void FixedUpdate () {
 		
-		if (canMove)
+		if (canMove && !Paused)
 		{
 			if (moveDir.x != 0 || moveDir.z != 0)
 			{
@@ -141,16 +146,18 @@ public class CharacterControls : MonoBehaviour {
 	private void Update()
 	{
 
-		if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+		if (Input.GetKey(KeyCode.W)  && !Paused || Input.GetKey(KeyCode.A) && !Paused || Input.GetKey(KeyCode.S) && !Paused || Input.GetKey(KeyCode.D) && !Paused )
 		{
 			animator.SetTrigger("Run");
 		}
 
-
-		/*if (Input.GetKeyUp(KeyCode.W))
-		{
-			rb.velocity.magnitude -= 50.0f;
-		}*/
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				pauseGame.SetActive(true);
+				Cursor.lockState = CursorLockMode.None;
+				Paused = true;
+			}
+			
 
 		if (Input.GetKey(KeyCode.LeftShift))
 		{
@@ -167,13 +174,15 @@ public class CharacterControls : MonoBehaviour {
 
 		if (Input.GetKeyUp(KeyCode.W)) animator.SetBool("isRunning", false);
 
-		float h = Input.GetAxis("Horizontal");
-		float v = Input.GetAxis("Vertical");
+		
+			float h = Input.GetAxis("Horizontal");
+			float v = Input.GetAxis("Vertical");
 
 
 		Vector3 v2 = v * cam.transform.forward; // Függőleges irányítása a kamerának
 		Vector3 h2 = h * cam.transform.right; // Vízszintes irányítása a kamerának
-		moveDir = (v2 + h2).normalized; //A pozíció amerre a karakterünknek mozognia kell
+
+			moveDir = (v2 + h2).normalized; //A pozíció amerre a karakterünknek mozognia kell
 
 		RaycastHit hit;
 		if (Physics.Raycast(transform.position, -Vector3.up, out hit, distToGround + 0.1f))
@@ -253,4 +262,12 @@ public class CharacterControls : MonoBehaviour {
 
 
     }
+
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag("NextMap"))
+		{
+			MainMenu.LoadNextMap();
+		}
+	}
 }

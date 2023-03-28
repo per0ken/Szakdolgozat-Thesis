@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene(1);
+        SceneCounter = 1;
     }
 
     public static void QuitGame()
@@ -31,5 +32,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneCounter++;
         SceneManager.LoadScene(SceneCounter);
+    }
+
+    public static void Menu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

@@ -11,5 +11,10 @@ public class KillZone : MonoBehaviour
         {
 			col.gameObject.GetComponent<CharacterControls>().LoadCheckPoint();
 		}
-	}
+
+        if (col.gameObject.tag == "Sphere")
+        {
+            Destroy(col);
+        }
+    }
 }
