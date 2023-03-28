@@ -10,8 +10,9 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
         SceneCounter = 1;
+        CharacterControls.Paused = false;
+        SceneManager.LoadScene(1);
     }
 
     public static void QuitGame()
@@ -26,11 +27,13 @@ public class MainMenu : MonoBehaviour
 
     public void LoadLastGame()
     {
+        CharacterControls.Paused = false;
         SceneManager.LoadScene(SceneCounter);
     }
     public static void LoadNextMap()
     {
         SceneCounter++;
+        CharacterControls.Paused = false;
         SceneManager.LoadScene(SceneCounter);
     }
 
