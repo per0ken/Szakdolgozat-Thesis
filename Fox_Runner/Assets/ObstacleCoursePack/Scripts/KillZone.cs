@@ -16,5 +16,10 @@ public class KillZone : MonoBehaviour
         {
             Destroy(col);
         }
+        if(col.gameObject.tag == "Sphere")
+        {
+            Destroy(col);
+            BridgeActivator.Spawner();
+        }
     }
 }

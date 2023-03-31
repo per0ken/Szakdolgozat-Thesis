@@ -13,6 +13,9 @@ TagManager:
   - NextMap
   - Rotator
   - Sphere
+  - Bridge
+  - End
+  - Pendulum
   layers:
   - Default
   - TransparentFX

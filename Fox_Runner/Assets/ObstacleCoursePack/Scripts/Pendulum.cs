@@ -9,7 +9,14 @@ public class Pendulum : MonoBehaviour
 	public bool randomStart = false; // a kezdő pozíció
 	private float random = 0;
 
-	void Awake()
+	public AudioSource source;
+
+    private void Start()
+    {
+		source = GetComponent<AudioSource>();
+    }
+
+    void Awake()
     {
 		if(randomStart)
 			random = Random.Range(0f, 1f);

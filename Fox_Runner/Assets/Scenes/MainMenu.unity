@@ -614,7 +614,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1949865116}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: SpeedRun
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2029,8 +2029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 38, y: 19.5}
-  m_SizeDelta: {x: 289.60156, y: 30.875488}
+  m_AnchoredPosition: {x: 33, y: 18.5}
+  m_SizeDelta: {x: 289.60156, y: 28.875488}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822520401
 MonoBehaviour:
@@ -2052,7 +2052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Best Run:'
+  m_text: 'Last Speedrun:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2254,6 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4de00ac7550fc4c8de5bd68932dbf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  record: {fileID: 1822520401}
 --- !u!82 &1949865117
 AudioSource:
   m_ObjectHideFlags: 0
