@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
     public TextMeshProUGUI record;
     public static string bestGame;
 
-    public static bool speedrun = true;
+    public static bool speedrun;
 
 
     private void Start()
@@ -48,6 +48,7 @@ public class MainMenu : MonoBehaviour
         CharacterControls.Paused = false;
         CharacterControls.finished = false;
         speedrun = true;
+        startTime = 0;
         t = 0;
         minutes = 0;
         seconds = 0;
@@ -68,6 +69,7 @@ public class MainMenu : MonoBehaviour
         {
             SceneCounter = 1;
             t = 0;
+            startTime = 0;
             minutes = 0;
             seconds = 0;
             lastsceneM = 0;
@@ -78,6 +80,14 @@ public class MainMenu : MonoBehaviour
         }
         if (speedrun == false)
         {
+            t = 0;
+            startTime = 0;
+            minutes = 0;
+            seconds = 0;
+            lastsceneM = 0;
+            lastsceneS = 0;
+            secondsHelper = 0;
+            speedrun = false;
             SceneManager.LoadScene(0);
         }
     }
@@ -85,6 +95,7 @@ public class MainMenu : MonoBehaviour
     public void LoadLastGame()
     {
         CharacterControls.Paused = false;
+        speedrun = false;
         SceneManager.LoadScene(SceneCounter);
     }
     public static void LoadNextMap()
@@ -93,8 +104,12 @@ public class MainMenu : MonoBehaviour
         CharacterControls.Paused = false;
         lastsceneS = seconds;
         lastsceneM = minutes;
-        secondsHelper += t;
-        SceneManager.LoadScene(SceneCounter);
+        secondsHelper = t;
+        Scene scene = SceneManager.GetActiveScene();
+        if ((scene.name == "FirstMap"))
+            SceneManager.LoadScene("SecondMap");
+        if (scene.name == "SecondMap")
+            SceneManager.LoadScene("ThirdMap");
     }
 
     public static void SetString(string KeyName, string Value)

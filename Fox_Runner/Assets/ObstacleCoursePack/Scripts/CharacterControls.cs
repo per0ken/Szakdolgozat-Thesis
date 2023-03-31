@@ -62,13 +62,20 @@ public class CharacterControls : MonoBehaviour {
 		pauseGame = GameObject.Find("Pause");
 		pauseGame.SetActive(false);
 
-		endGame = GameObject.Find("Won");
-		endGame.SetActive(false);
+		Scene scene = SceneManager.GetActiveScene();
+		if (scene.name == "ThirdMap")
+		{
+			endGame = GameObject.Find("Won");
+			endGame.SetActive(false);
+		}
 
-		endSpeedGame = GameObject.Find("WonSpeedRun");
-		endSpeedGame.SetActive(false);
+		if (scene.name == "ThirdMap")
+		{
+			endSpeedGame = GameObject.Find("WonSpeedRun");
+			endSpeedGame.SetActive(false);
+		}
 
-		MainMenu.startTime = Time.time;
+		MainMenu.startTime = Time.timeSinceLevelLoad;
 	}
 	
 	bool IsGrounded (){
@@ -184,7 +191,7 @@ public class CharacterControls : MonoBehaviour {
 		if (MainMenu.speedrun == true && !finished && !Paused)
 		{
 			MainMenu.t = Time.timeSinceLevelLoad - MainMenu.startTime + MainMenu.secondsHelper;
-			MainMenu.minutes = (int)(MainMenu.t / 60) + MainMenu.lastsceneM;
+			MainMenu.minutes = (int)(MainMenu.t / 60);
 			MainMenu.seconds = (MainMenu.t % 60);
 			Debug.Log(MainMenu.t);
 			if (MainMenu.t < 9.5 || (MainMenu.t % 60) < 9.5)
